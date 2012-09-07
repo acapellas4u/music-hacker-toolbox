@@ -10,10 +10,10 @@ Each script is representing some kind of basic function and usually *it can take
 
 ## Example
 
-`Usage: ./get-twitter-handle.py [OPTIONS]"
-Gets Twitter handle from given input string (or list of strings from file), representing artist's name.
--a | --artist :: name of the artist, e.g. ("Iron Maiden")
--f | --file :: list of artists from a .txt file`
+`Usage: ./get-twitter-handle.py [OPTIONS]"`
+`Gets Twitter handle from given input string (or list of strings from file), representing artist's name.`
+`-a | --artist :: name of the artist, e.g. ("Iron Maiden")z
+`-f | --file :: list of artists from a .txt file`
 
 ## Future
 
