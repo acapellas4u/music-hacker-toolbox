@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #
-# get-twitter-handle.py 
+# get-twitter-handle_echonest.py 
 # 
 # Gets Twitter handle from given input string (or list of strings from file), representing artist's name.
 # Powered by: The Echo Nest API
@@ -23,7 +23,7 @@ def get_twitter_handle(artist_name):
 		print "Artist: %s - NOT_FOUND" % artist_name
 
 def print_help():
-	print "\t Usage: ./get-twitter-handle.py [OPTIONS]"
+	print "\t Usage: ./get-twitter-handle_echonest.py [OPTIONS]"
 	print "\t\t Gets Twitter handle from given input string (or list of strings from file), representing artist's name.\n"
 	print '\t -a | --artist :: name of the artist, e.g. ("Iron Maiden")'
 	print "\t -f | --file :: list of artists from a *.txt file"

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #
-# get-artist-image-url.py
+# get-artist-image-url_echonest.py
 # 
 # Gets The Echo Nest's URLs to pictures/images of artist from given input string (or list of strings from file), representing artist's name.
 # Poweredy by: The Echo Nest API
@@ -23,7 +23,7 @@ def get_echonest_images(artist_name):
 		print "Artist %s - NOT_FOUND" % artist_name
 
 def print_help():
-	print "\t Usage: ./get-artist-image-url.py [OPTIONS]"
+	print "\t Usage: ./get-artist-image-url_echonest.py [OPTIONS]"
 	print "\t\t Gets URLs to pictures/images of artist from given input string (or list of strings from file), representing artist's name.\n"
 	print '\t -a | --artist :: name of the artist, e.g. ("Iron Maiden")'
 	print "\t -f | --file :: list of artists from a *.txt file"

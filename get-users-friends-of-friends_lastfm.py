@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #
-# get-users-friends-of-friends.py 
+# get-users-friends-of-friends_lastfm.py 
 # 
 # Gets list of friends and friends of their friends from given input string (or list of strings from file), representing user's last.fm username.
 # Powered by: Last.fm API
@@ -47,7 +47,7 @@ def lastfm_friends_inception(init_user):
 		print "%s;%s" % (init_user,friend_of_friends)
 
 def print_help():
-	print "\t Usage: ./get-users-friends-of-friends.py [OPTIONS]"
+	print "\t Usage: ./get-users-friends-of-friends_lastfm.py [OPTIONS]"
 	print "\t\t Get's list of friends and friends of their friends from given input string (or list of strings from file), representing user's last.fm username.\n"
 	print '\t -u | --user :: last.fm username'
 	print "\t -f | --file :: list of artists from a *.txt file"

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #
-# get-artist-image-url-lastfm.py
+# get-artist-image-url_lastfm.py
 # 
 # Gets Last.fm's URLs to pictures/images of artist and it's similars from given input string (or list of strings from file), representing artist's name.
 # Poweredy by: Last.fm API
@@ -17,7 +17,7 @@ import getopt
 from xml.dom.minidom import parse
 
 def print_help():
-	print "\t Usage: ./get-artist-image-url-lastfm.py [OPTIONS]"
+	print "\t Usage: ./get-artist-image-url_lastfm.py [OPTIONS]"
 	print "\t\t Gets Last.fm's URLs to pictures/images of artist and it's similars from given input string (or list of strings from file), representing artist's name.\n"
 	print '\t -a | --artist :: name of the artist, e.g. ("Iron Maiden")'
 	print "\t -f | --file :: list of artists from a *.txt file"

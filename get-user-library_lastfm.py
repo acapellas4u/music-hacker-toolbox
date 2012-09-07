@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #
-# get-user-library.py
+# get-user-library_lastfm.py
 # Gets the entire list of scrobbled artists from given input string (or list of strings from file), representing user's last.fm username.
 # Powered by: Last.fm API
 #
@@ -27,7 +27,7 @@ def get_lastfm_library(init_user):
 		pass
 
 def print_help():
-  print "\t Usage: ./get-user-library.py [OPTIONS]"
+  print "\t Usage: ./get-user-library_lastfm.py [OPTIONS]"
   print "\t\t Gets the entire list of scrobbled artists from given input string (or list of strings from file), representing user's last.fm username.\n"
   print '\t -u | --user :: last.fm username'
   print "\t -f | --file :: list of artists from a *.txt file"

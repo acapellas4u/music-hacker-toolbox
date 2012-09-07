@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #
-# get-top-artists-chart.py
+# get-top-artists-chart_lastfm.py
 # 
 # Get's Top Chart of Last.fm artists: http://www.last.fm/charts/artists/top
 # Powered by: Last.fm API

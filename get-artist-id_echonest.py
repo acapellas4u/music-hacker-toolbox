@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #
-# get-artist-echonest-id.py
+# get-artist-id_echonest.py
 # 
 # Gets The Echo Nest artist ID from given input string (or list of strings from file), representing artist's name.
 # Poweredy by: The Echo Nest API
@@ -23,7 +23,7 @@ def get_echonest_id(artist_name):
 		print "Artist %s - NOT_FOUND" % artist_name
 
 def print_help():
-	print "\t Usage: ./get-artist-echonest-id.py [OPTIONS]"
+	print "\t Usage: ./get-artist-id_echonest.py [OPTIONS]"
 	print "\t\t Gets The Echo Nest artist ID from given input string (or list of strings from file), representing artist's name.\n"
 	print '\t -a | --artist :: name of the artist, e.g. ("Iron Maiden")'
 	print "\t -f | --file :: list of artists from a *.txt file"
